@@ -116,3 +116,43 @@
 
     flex-wrap:wrap;
 }
+
+/* Contact section */
+
+.contact-intro {
+  max-width: 680px;
+  margin: 18px auto 28px;
+  color: var(--muted);
+  line-height: 1.7;
+  text-align: center;
+}
+
+.availability-badge {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin: 0 auto;
+  padding: 8px 14px;
+  border: 1px solid rgba(128, 0, 32, 0.4);
+  border-radius: 999px;
+  background: rgba(128, 0, 32, 0.12);
+  color: var(--text);
+  font-size: 0.86rem;
+  font-weight: 600;
+}
+
+.availability-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #32c766;
+  box-shadow: 0 0 10px rgba(50, 199, 102, 0.6);
+}
+
+.contact-closing {
+  margin-top: 28px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  text-align: center;
+}  
