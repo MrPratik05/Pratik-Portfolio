@@ -41,3 +41,29 @@
     width: 9ch;
   }
 }
+
+/* Keep hero text and buttons stable during typing animation */
+.hero h2 {
+  min-height: 3.2rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#typingText {
+  display: inline-block;
+  min-width: 9ch;
+  margin-left: 0.25em;
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  .hero h2 {
+    min-height: 5.5rem;
+    align-items: flex-start;
+  }
+
+  #typingText {
+    min-width: 9ch;
+  }
+}
