@@ -119,6 +119,22 @@
 
 /* Contact section */
 
+#contact {
+  text-align: center;
+}
+
+#contact .section-heading {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact .section-heading span,
+#contact .section-heading h2 {
+  display: block;
+  text-align: center;
+}
+
 .contact-intro {
   max-width: 680px;
   margin: 18px auto 28px;
@@ -132,7 +148,7 @@
   display: flex;
   align-items: center;
   gap: 9px;
-  margin: 0 auto;
+  margin: 18px auto 0;
   padding: 8px 14px;
   border: 1px solid rgba(128, 0, 32, 0.4);
   border-radius: 999px;
@@ -145,26 +161,27 @@
 .availability-dot {
   width: 9px;
   height: 9px;
+  flex-shrink: 0;
   border-radius: 50%;
   background: #32c766;
   box-shadow: 0 0 10px rgba(50, 199, 102, 0.6);
 }
 
-.contact-closing {
-  margin-top: 28px;
-  color: var(--muted);
-  font-size: 0.9rem;
-  text-align: center;
-}  
+.contact-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
 
+@media (max-width: 600px) {
+  .contact-intro {
+    padding: 0 16px;
+  }
 
-/* Contact section */
-
-.contact-links{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    gap:12px;
-    flex-wrap:wrap;
-    margin-top:15px;
+  .contact-links {
+    padding: 0 16px;
+  }
 }
