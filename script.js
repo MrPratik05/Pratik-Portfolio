@@ -63,16 +63,36 @@ function renderProjects(){
       <h3>${p.title}</h3>
       <p>${p.desc}</p>
       <div class="chips">${p.tech.map(t=>`<span class="chip">${t}</span>`).join('')}</div>
-      <div class="card-links">
+     <div class="card-links">
+
   ${p.github && p.github !== '#'
-    ? `<a href="${p.github}" target="_blank" rel="noopener noreferrer">GitHub →</a>`
+    ? `
+      <a
+        class="project-btn"
+        href="${p.github}"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GitHub
+      </a>
+    `
     : ''
   }
 
   ${p.demo && p.demo !== '#'
-    ? `<a href="${p.demo}" target="_blank" rel="noopener noreferrer">Live Demo →</a>`
+    ? `
+      <a
+        class="project-btn"
+        href="${p.demo}"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Live Demo
+      </a>
+    `
     : ''
   }
+
 </div>
     </article>
   `).join('');
