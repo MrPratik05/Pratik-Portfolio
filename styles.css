@@ -19,3 +19,25 @@
   gap: 16px;
   margin-bottom: 22px;
 }
+/* Keep the typing animation without moving the content below */
+#typingText {
+  display: inline-block;
+  width: 9ch;
+  white-space: nowrap;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+.hero h2 {
+  min-height: 2.6em;
+}
+
+@media (max-width: 600px) {
+  .hero h2 {
+    min-height: 3.4em;
+  }
+
+  #typingText {
+    width: 9ch;
+  }
+}
