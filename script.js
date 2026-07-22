@@ -40,12 +40,12 @@ const io = new IntersectionObserver(entries => {
 }, {threshold:.16});
 $$('.reveal').forEach(el => io.observe(el));
 
-function renderSkills(){
-  $('#skillsGrid').innerHTML = data.skills.map(([name,level]) => `
-    <div class="skill-card">
-      <div class="skill-head"><strong>${name}</strong><span>${level}%</span></div>
-      <div class="bar"><span data-width="${level}"></span></div>
-    </div>
+function renderSkills() {
+  $('#skillsGrid').innerHTML = data.skills.map(skill => `
+    <article class="skill-card">
+      <h3>${skill.name}</h3>
+      <p>${skill.description}</p>
+    </article>
   `).join('');
 }
 
