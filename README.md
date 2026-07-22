@@ -1,17 +1,23 @@
-# Pratik Patil Premium AI Portfolio
+# Pratik Patil — AI Engineer Portfolio
 
-## Files
-- `index.html` — public portfolio
-- `admin.html` — local editing dashboard
+Personal portfolio website showcasing my work in Generative AI, machine learning, RAG, LLM applications, APIs and MLOps.
+
+## Website structure
+
+- `index.html` — main portfolio
 - `data.js` — portfolio content
-- `styles.css` — Deep Burgundy premium theme
-- `script.js` — animations and rendering
+- `styles.css` — website styling
+- `script.js` — rendering and interactions
+- `images/` — project and profile images
 
-## Admin password
-`Pratik@2026`
+## Featured areas
 
-## Important
-The admin dashboard saves changes using browser localStorage. For public GitHub Pages, recruiters cannot permanently change your site, but you may remove `admin.html` before sharing if you want a fully public-only version.
+- Generative AI and RAG
+- Machine learning engineering
+- FastAPI and production APIs
+- Docker and CI/CD
+- AI application deployment
 
-## Deploy on GitHub Pages
-Upload all files to the repository root, then go to Settings → Pages → Deploy from branch → main → /root.
+## Deployment
+
+Deployed using GitHub Pages.
