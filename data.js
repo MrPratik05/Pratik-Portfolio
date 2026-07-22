@@ -1,7 +1,54 @@
 const portfolioData = {
   skills: [
-    ['Python', 95], ['Generative AI', 92], ['RAG', 90], ['LangChain', 88], ['LangGraph', 88], ['FastAPI', 86], ['Docker', 84], ['GitHub Actions', 82], ['TensorFlow', 82], ['PyTorch', 82], ['Computer Vision', 80], ['SQL', 78]
-  ],
+  {
+    name: 'Python',
+    description: 'AI, machine learning and backend development'
+  },
+  {
+    name: 'LangChain',
+    description: 'LLM applications and orchestration'
+  },
+  {
+    name: 'LangGraph',
+    description: 'Agentic and multi-step AI workflows'
+  },
+  {
+    name: 'RAG',
+    description: 'Knowledge-grounded AI applications'
+  },
+  {
+    name: 'Google Gemini',
+    description: 'Generative AI model integration'
+  },
+  {
+    name: 'FastAPI',
+    description: 'Production-ready REST API development'
+  },
+  {
+    name: 'Docker',
+    description: 'Application containerisation and deployment'
+  },
+  {
+    name: 'GitHub Actions',
+    description: 'Automated testing and CI/CD workflows'
+  },
+  {
+    name: 'PyTorch',
+    description: 'Deep learning model development'
+  },
+  {
+    name: 'TensorFlow',
+    description: 'Machine learning and neural networks'
+  },
+  {
+    name: 'Pandas',
+    description: 'Data processing and analysis'
+  },
+  {
+    name: 'SQL',
+    description: 'Database querying and data management'
+  }
+],
 projects: [
   {
     title: 'AssistFlow AI',
