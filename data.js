@@ -63,7 +63,12 @@ projects: [
   ],
   education: [
     {degree:'MSc Artificial Intelligence', school:'Nottingham Trent University, UK', date:'Oct 2025', detail:'Focused on Generative AI, NLP, computer vision, spiking neural networks and efficient AI deployment.'},
-    {degree:'B.Eng. Mechanical Engineering', school:'Sandip Institute of Technology and Research Centre, India', date:'Jul 2024', detail:'Final project: Smart Solar Drier — energy-efficient solar drying system with patent filed.'}
+    {
+  degree: 'B.Eng. Mechanical Engineering',
+  school: 'Sandip Institute of Technology and Research Centre, India',
+  date: 'Jul 2024',
+  detail: 'Final project: Smart Solar Drier — energy-efficient solar drying system with patent filed.'
+}
   ],
   certifications: [
     'Microsoft Azure AI Fundamentals (AI-900)',
