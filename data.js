@@ -89,8 +89,8 @@ const portfolioData = {
     title: 'Customer Support RAG Chatbot',
     category: 'Generative AI',
     tech: ['Python', 'Streamlit', 'LangChain', 'FAISS', 'Gemini', 'RAG'],
-    desc: 'Retrieval-augmented customer-support assistant that searches a business knowledge base, maintains chat context and provides escalation support.',
-    github: '#',
+    desc: 'Retrieval-augmented customer-support assistant that searches a business knowledge base, maintains conversational context and provides escalation support.',
+    github: 'https://github.com/MrPratik05/RAG',
     demo: '#'
   },
 
@@ -99,7 +99,7 @@ const portfolioData = {
     category: 'NLP',
     tech: ['Python', 'Streamlit', 'Whisper', 'FFmpeg', 'Speech Recognition'],
     desc: 'AI meeting assistant that accepts audio uploads and converts spoken conversations into searchable text using Whisper-based transcription.',
-    github: '#',
+    github: 'https://github.com/MrPratik05/Meeting-IQ',
     demo: '#'
   },
 
@@ -108,7 +108,7 @@ const portfolioData = {
     category: 'Data Science',
     tech: ['Python', 'Statistical Modeling', 'Logistic Regression'],
     desc: 'JPMorgan Chase & Co. simulation covering natural-gas price forecasting, probability-of-default modelling and FICO-based borrower risk segmentation.',
-    github: '#',
+    github: 'https://github.com/MrPratik05/Quantitative-Research',
     demo: '#'
   },
 
@@ -144,7 +144,7 @@ const portfolioData = {
     category: 'NLP',
     tech: ['Python', 'Transformers', 'NLP', 'PyTorch'],
     desc: 'Transformer-based NLP project for generating concise summaries using generative AI and sequence-to-sequence techniques.',
-    github: '#',
+    github: 'https://github.com/MrPratik05/text-summarizer-transformer',
     demo: '#'
   },
 
@@ -153,7 +153,7 @@ const portfolioData = {
     category: 'AI Research',
     tech: ['PyTorch', 'TensorFlow', 'Quantisation', 'Pruning', 'Knowledge Distillation'],
     desc: 'MSc research project exploring quantisation, pruning and knowledge distillation to reduce generative AI model size and computational requirements.',
-    github: '#',
+    github: 'https://github.com/MrPratik05/-GenAI-SML-Generative-AI-Models',
     demo: '#'
   },
 
