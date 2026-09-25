@@ -5,8 +5,12 @@ const portfolioData = {
     description: 'AI, machine learning and backend development'
   },
   {
+    name: 'Generative AI & LLMs',
+    description: 'Building applications powered by large language models'
+  },
+  {
     name: 'LangChain',
-    description: 'LLM applications and orchestration'
+    description: 'LLM application development and orchestration'
   },
   {
     name: 'LangGraph',
@@ -14,23 +18,19 @@ const portfolioData = {
   },
   {
     name: 'RAG',
-    description: 'Knowledge-grounded AI applications'
+    description: 'Retrieval-augmented and knowledge-grounded AI systems'
   },
   {
-    name: 'Google Gemini',
-    description: 'Generative AI model integration'
-  },
-  {
-    name: 'FastAPI',
-    description: 'Production-ready REST API development'
+    name: 'FastAPI & REST APIs',
+    description: 'Backend API design and production-style AI services'
   },
   {
     name: 'Docker',
     description: 'Application containerisation and deployment'
   },
   {
-    name: 'GitHub Actions',
-    description: 'Automated testing and CI/CD workflows'
+    name: 'Git & GitHub Actions',
+    description: 'Version control, automated testing and CI/CD workflows'
   },
   {
     name: 'PyTorch',
@@ -38,43 +38,51 @@ const portfolioData = {
   },
   {
     name: 'TensorFlow',
-    description: 'Machine learning and neural networks'
+    description: 'Machine learning and neural network development'
   },
   {
-    name: 'Pandas',
-    description: 'Data processing and analysis'
+    name: 'Pandas & NumPy',
+    description: 'Data processing, manipulation and analysis'
   },
   {
-    name: 'SQL',
-    description: 'Database querying and data management'
+    name: 'OpenCV',
+    description: 'Computer vision and image preprocessing'
+  },
+  {
+    name: 'Cloud Platforms',
+    description: 'AWS, GCP and Microsoft Azure'
+  },
+  {
+    name: 'PyTest',
+    description: 'Automated testing for Python applications'
   }
 ],
-projects: [
+  projects: [
   {
-    title: 'AssistFlow AI',
+    title: 'AssistFlow AI — Agentic Customer Support Platform',
     category: 'Generative AI',
-    tech: ['Python', 'LangChain', 'LangGraph', 'RAG', 'Gemini', 'ChromaDB'],
-    desc: 'Agentic customer-support platform with intent classification, semantic retrieval, conversational memory and human escalation.',
+    tech: ['Python', 'LangChain', 'LangGraph', 'RAG', 'Docker', 'GitHub Actions'],
+    desc: 'Agentic customer-support platform with intent classification, retrieval and escalation workflows, deployed as a production-style AI application.',
     github: 'https://github.com/MrPratik05/assistflow-ai',
     demo: 'https://huggingface.co/spaces/MrPratikk/assistflow-ai'
   },
 
   {
-    title: 'Financial Analysis Chatbot',
-    category: 'Generative AI',
-    tech: ['Python', 'Streamlit', 'Pandas', 'Financial Analysis'],
-    desc: 'Interactive financial assistant that answers predefined questions about revenue, net income, cash flow, assets and liabilities using 2023–2025 company data.',
-    github: 'https://github.com/MrPratik05/financial-analysis-chatbot',
+    title: 'Production ML Inference API',
+    category: 'MLOps',
+    tech: ['FastAPI', 'Docker', 'GitHub Actions', 'PyTest', 'REST API'],
+    desc: 'Production-style ML inference API with automated testing, CI/CD, health checks, structured logging and containerised deployment.',
+    github: 'https://github.com/MrPratik05/production-ml-inference-api',
     demo: '#'
   },
 
   {
-    title: 'Production ML Inference API',
-    category: 'MLOps',
-    tech: ['FastAPI', 'Docker', 'GitHub Actions', 'Pytest', 'REST API'],
-    desc: 'Production-style machine-learning inference service with automated testing, CI/CD, health checks, logging and containerised deployment.',
-    github: 'https://github.com/MrPratik05/production-ml-inference-api',
-    demo: '#'
+    title: 'AI Financial Analysis Chatbot',
+    category: 'Data & AI',
+    tech: ['Python', 'Streamlit', 'Pandas', 'Financial Analysis'],
+    desc: 'Natural-language interface for exploring structured financial data across revenue, cash flow and balance-sheet metrics.',
+    github: 'https://github.com/MrPratik05/financial-analysis-chatbot',
+    demo: 'https://financial-analysis-chatbot-p9lk5jtkda8mdqyydoyi3h.streamlit.app/'
   },
 
   {
@@ -87,7 +95,7 @@ projects: [
   },
 
   {
-    title: 'MeetingIQ',
+    title: 'MeetingIQ — AI Meeting Assistant',
     category: 'NLP',
     tech: ['Python', 'Streamlit', 'Whisper', 'FFmpeg', 'Speech Recognition'],
     desc: 'AI meeting assistant that accepts audio uploads and converts spoken conversations into searchable text using Whisper-based transcription.',
@@ -96,18 +104,90 @@ projects: [
   },
 
   {
+    title: 'Quantitative Research — Industry Simulation',
+    category: 'Data Science',
+    tech: ['Python', 'Statistical Modeling', 'Logistic Regression'],
+    desc: 'JPMorgan Chase & Co. simulation covering natural-gas price forecasting, probability-of-default modelling and FICO-based borrower risk segmentation.',
+    github: '#',
+    demo: '#'
+  },
+
+  {
+    title: 'AI-Powered Delinquency Prediction & Collections Strategy',
+    category: 'Machine Learning',
+    tech: ['Python', 'Decision Trees', 'EDA', 'Predictive Analytics'],
+    desc: 'Tata Group simulation focused on customer delinquency prediction, risk segmentation and data-driven collections strategies.',
+    github: '#',
+    demo: '#'
+  },
+
+  {
+    title: 'Animal Image Classification — Computer Vision',
+    category: 'Computer Vision',
+    tech: ['Python', 'OpenCV', 'TensorFlow', 'Deep Learning'],
+    desc: 'Computer-vision pipeline using image preprocessing, augmentation and deep learning to classify animal images and evaluate model predictions.',
+    github: '#',
+    demo: '#'
+  },
+
+  {
+    title: 'Crop Yield Prediction Using Machine Learning',
+    category: 'Machine Learning',
+    tech: ['Python', 'Random Forest', 'Gradient Boosting', 'Neural Networks'],
+    desc: 'Machine-learning project for forecasting crop yields using historical yield and weather data across multiple predictive models.',
+    github: '#',
+    demo: '#'
+  },
+
+  {
+    title: 'Transformer-Based Text Summarization Model',
+    category: 'NLP',
+    tech: ['Python', 'Transformers', 'NLP', 'PyTorch'],
+    desc: 'Transformer-based NLP project for generating concise summaries using generative AI and sequence-to-sequence techniques.',
+    github: '#',
+    demo: '#'
+  },
+
+  {
     title: 'µGenAI: Lightweight Generative AI Models',
     category: 'AI Research',
-    tech: ['PyTorch', 'Quantisation', 'Pruning', 'Knowledge Distillation'],
-    desc: 'MSc research project investigating techniques for reducing the memory usage and computational cost of generative AI models.',
+    tech: ['PyTorch', 'TensorFlow', 'Quantisation', 'Pruning', 'Knowledge Distillation'],
+    desc: 'MSc research project exploring quantisation, pruning and knowledge distillation to reduce generative AI model size and computational requirements.',
+    github: '#',
+    demo: '#'
+  },
+
+  {
+    title: 'Spiking Neural Network for Audio Processing',
+    category: 'AI Research',
+    tech: ['Python', 'NEST', 'Spiking Neural Networks'],
+    desc: 'Designed a Spiking Neural Network for audio-to-spike and spike-to-audio conversion using the NEST simulation framework.',
     github: '#',
     demo: '#'
   }
 ],
   experience: [
-    {role:'Training Partner', company:'Frasers Group', date:'Oct 2025 – Present', bullets:['Built structured performance dashboards from training and operational data using Excel, SQL and Power BI.','Reduced onboarding processing time by 12% by redesigning compliance and training delivery workflows across SuccessFactor and Workday Learning.']},
-    {role:'Virtual Internship', company:'Global Shala / Saint Louis University', date:'Feb 2022 – Mar 2022', bullets:['Led the Super Hero YOU project in a multicultural virtual team environment.','Coordinated remote collaboration, project planning and presentation activities.']}
-  ],
+  {
+    role: 'Warehouse Systems Operator',
+    company: 'Frasers Group — Distribution Operations',
+    date: 'Oct 2025 – Present',
+    bullets: [
+      'Operate Zebra MC3300x enterprise mobile computers and Warehouse Management Systems (WMS) to process high-volume deliveries and maintain accurate real-time inventory records.',
+      'Reconcile expected vs. scanned quantities and handle failed scans, quantity mismatches and damaged-stock exceptions through structured troubleshooting and escalation.',
+      'Built Excel and Power BI dashboards and automated compliance and training delivery across SuccessFactors and Workday Learning, reducing onboarding processing time by 12%.',
+      'Support a 10–15 member team processing up to 15 deliveries per day, contributing to accurate synchronization between physical stock and digital inventory systems.'
+    ]
+  },
+  {
+    role: 'Project Intern',
+    company: 'Global Shala — Virtual, USA (via Saint Louis University)',
+    date: 'Feb 2022 – Mar 2022',
+    bullets: [
+      'Supported successful delivery of the "Super Hero YOU" initiative through project planning, cross-functional coordination and stakeholder presentations within a multicultural virtual team.',
+      'Developed practical leadership, communication and problem-solving skills applicable to software and technology delivery teams.'
+    ]
+  }
+],
   education: [
     {degree:'MSc Artificial Intelligence', school:'Nottingham Trent University, UK', date:'Oct 2025', detail:'Focused on Generative AI, NLP, computer vision, spiking neural networks and efficient AI deployment.'},
     {
