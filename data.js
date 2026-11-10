@@ -2,59 +2,59 @@ const portfolioData = {
   skills: [
   {
     name: 'Python',
-    description: 'AI, machine learning and backend development'
+    description: 'AI engineering, backend development and machine learning'
   },
   {
     name: 'Generative AI & LLMs',
-    description: 'Building applications powered by large language models'
+    description: 'Prompt engineering, fine-tuning, LoRA and QLoRA'
   },
   {
-    name: 'LangChain',
-    description: 'LLM application development and orchestration'
+    name: 'LangChain & LlamaIndex',
+    description: 'LLM applications and retrieval pipelines'
   },
   {
-    name: 'LangGraph',
-    description: 'Agentic and multi-step AI workflows'
+    name: 'LangGraph & Agentic AI',
+    description: 'Multi-agent workflows, orchestration and tool calling'
   },
   {
-    name: 'RAG',
-    description: 'Retrieval-augmented and knowledge-grounded AI systems'
+    name: 'RAG & Vector Databases',
+    description: 'Embeddings, Pinecone, FAISS, ChromaDB, pgvector and reranking'
+  },
+  {
+    name: 'Model Context Protocol (MCP)',
+    description: 'MCP servers and AI tool integration'
   },
   {
     name: 'FastAPI & REST APIs',
-    description: 'Backend API design and production-style AI services'
+    description: 'AI inference services, backend APIs and Pydantic'
   },
   {
-    name: 'Docker',
-    description: 'Application containerisation and deployment'
+    name: 'Docker & Kubernetes',
+    description: 'Containerisation, orchestration and deployment'
+  },
+  {
+    name: 'AWS & Microsoft Azure',
+    description: 'Cloud deployment and Azure AI Services'
   },
   {
     name: 'Git & GitHub Actions',
-    description: 'Version control, automated testing and CI/CD workflows'
+    description: 'Version control, automated testing and CI/CD'
   },
   {
-    name: 'PyTorch',
-    description: 'Deep learning model development'
+    name: 'LLMOps & Evaluation',
+    description: 'RAGAS, MLflow, AI guardrails and observability'
   },
   {
-    name: 'TensorFlow',
-    description: 'Machine learning and neural network development'
+    name: 'PyTorch & TensorFlow',
+    description: 'Deep learning and neural network development'
   },
   {
-    name: 'Pandas & NumPy',
-    description: 'Data processing, manipulation and analysis'
+    name: 'Pandas, NumPy & SQL',
+    description: 'Data processing, analytics and relational databases'
   },
   {
-    name: 'OpenCV',
-    description: 'Computer vision and image preprocessing'
-  },
-  {
-    name: 'Cloud Platforms',
-    description: 'AWS, GCP and Microsoft Azure'
-  },
-  {
-    name: 'PyTest',
-    description: 'Automated testing for Python applications'
+    name: 'Computer Vision & Robotics',
+    description: 'OpenCV, reinforcement learning and ROS'
   }
 ],
   projects: [
@@ -73,6 +73,17 @@ const portfolioData = {
     tech: ['FastAPI', 'Docker', 'GitHub Actions', 'PyTest', 'REST API'],
     desc: 'Production-style ML inference API with automated testing, CI/CD, health checks, structured logging and containerised deployment.',
     github: 'https://github.com/MrPratik05/production-ml-inference-api',
+    demo: '#'
+  },
+
+    
+  {
+    title: 'Candidrivo — AI Job Application Assistant (In Progress)',
+    category: 'Generative AI',
+    status: 'In Progress',
+    tech: ['Python', 'Streamlit', 'Gemini API', 'Prompt Engineering'],
+    desc: 'Currently developing an AI-powered job application assistant. Implemented resume profile extraction, structured profile management, JSON backup and Gemini API integration. Planned features include job discovery, tailored resumes, cover letter generation and application tracking.',
+    github: '#',
     demo: '#'
   },
 
@@ -168,23 +179,26 @@ const portfolioData = {
 ],
   experience: [
   {
-    role: 'Warehouse Systems Operator',
-    company: 'Frasers Group — Distribution Operations',
-    date: 'Oct 2025 – Present',
+    role: 'Generative AI Engineer',
+    company: 'Silverspace — Remote',
+    date: 'Nov 2025 – Present',
     bullets: [
-      'Operate Zebra MC3300x enterprise mobile computers and Warehouse Management Systems (WMS) to process high-volume deliveries and maintain accurate real-time inventory records.',
-      'Reconcile expected vs. scanned quantities and handle failed scans, quantity mismatches and damaged-stock exceptions through structured troubleshooting and escalation.',
-      'Built Excel and Power BI dashboards and automated compliance and training delivery across SuccessFactors and Workday Learning, reducing onboarding processing time by 12%.',
-      'Support a 10–15 member team processing up to 15 deliveries per day, contributing to accurate synchronization between physical stock and digital inventory systems.'
+      'Architected RAG pipelines using LangChain, LlamaIndex, embeddings, reranking and vector databases across 8,000 documents, delivering cited answers to 150 users.',
+      'Engineered multi-agent workflows using LangGraph, tool calling and Model Context Protocol (MCP), automating 3 business workflows and saving approximately 40 staff hours per month.',
+      'Fine-tuned Llama and Mistral models using LoRA, QLoRA and Hugging Face Transformers on 12,000 examples, reducing monthly inference costs by £1,500.',
+      'Deployed FastAPI inference services using Docker, Kubernetes, AWS and CI/CD, handling 5,000 daily LLM requests with response times under 2 seconds.',
+      'Implemented RAGAS evaluations, prompt regression tests and AI guardrails across 250 test cases, identifying 60 hallucination and prompt-injection failures before production releases.',
+      'Improved LLMOps processes using versioned prompts and MLflow experiment tracking, reducing release preparation from 3 days to 1 day.'
     ]
   },
   {
-    role: 'Project Intern',
-    company: 'Global Shala — Virtual, USA (via Saint Louis University)',
-    date: 'Feb 2022 – Mar 2022',
+    role: 'Junior AI Engineer',
+    company: 'vizva Consultancy Services — India',
+    date: 'Feb 2023 – Apr 2024',
     bullets: [
-      'Supported successful delivery of the "Super Hero YOU" initiative through project planning, cross-functional coordination and stakeholder presentations within a multicultural virtual team.',
-      'Developed practical leadership, communication and problem-solving skills applicable to software and technology delivery teams.'
+      'Developed computer vision and reinforcement learning pipelines using Python, PyTorch, OpenCV and ROS across 15,000 images, saving 4 seconds per part in pick-and-place operations.',
+      'Automated sensor-data preprocessing, model validation and reporting using Python, Pandas and NumPy, saving approximately 120 engineering hours over 14 months.',
+      'Prototyped deep learning models for object detection and motion planning, delivering 3 working demonstrations to client stakeholders within 10 weeks.'
     ]
   }
 ],
